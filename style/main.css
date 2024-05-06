@@ -1,0 +1,253 @@
+@import url(fonts.css);
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a {
+text-decoration: none;
+
+}
+body {
+background: url('../img/bg3.webp') no-repeat center/cover;
+width: 100%;
+}
+
+ul{
+list-style: none;
+}
+.container{
+width: 1350px;
+margin: 0 auto;
+padding: 0 15px;
+
+}
+.nav{
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: rgba(0, 0, 0, 0.7);
+}
+
+.im{
+
+width: 100px;
+height: 60px;
+}
+.header__list{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 20px;
+
+}
+.header__li{
+font-size: 25px;
+font-family:'CormorantGaramond-Bold';
+font-weight: 400;
+color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+
+
+
+
+.Timer{
+padding-top: 40px;
+padding-bottom: 40px;
+
+}
+.timer-display {
+    position: relative;
+    width: 92%;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 4%;
+    font-family: 'Roboto mono', monospace;
+    color: #be0000;
+    font-size: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.buttons {
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width: 120px;
+    height: 45px;
+    background-color: #8c52ff;
+    color: #fff;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons button:nth-last-child(2) {
+    background-color: #e35209;
+}
+
+.buttons button:nth-last-child(1) {
+    background-color: #f7df1e;
+}
+
+.buttons button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
+
+
+.Fortuna{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+
+.fortune {
+    max-width: 576px;
+    height: 706px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+  }
+  
+  .fortune__title {
+    font-size: 52px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(109.25deg, #F5A54F -24.13%, #F7D659 39.03%, #BE8D26 113.96%, #CA823B 172.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .fortune__wheel {
+    margin: 60px 0;
+  }
+  
+  .fortune__button {
+    background: #CC1D1D;
+    box-shadow: 0px 2px 27px red;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 53px;
+    max-width: 228px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .fortune__button:disabled {
+    background: #af4848;
+    cursor: not-allowed;
+  }
+  
+  .fortune__button:focus {
+    outline: 0;
+  }
+  
+  .wheel-fortune {
+    position: relative;
+    max-width: 353px;
+    max-height: 353px;
+  }
+  
+  .wheel-fortune__static {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    z-index: 2;
+  }
+
+  .Owl{
+    position: absolute;
+    left: 105px;
+    top: 100px;
+    z-index: 2;
+    width: 140px;
+    height: 140px;
+
+  }
+  
+  .suprise__item {
+    position: absolute;
+    z-index: 3;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    box-shadow: 0px 19px 27px rgb(255 0 0 / 20%);
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .suprise__name {
+    margin-bottom: 10px;
+  }
+  
+  .suprise__close {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    cursor: pointer;
+  }
+  
+  .suprise-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .7);
+  }
+
+
+  .Result{
+padding-top: 20px;
+padding-bottom: 20px;
+
+  }
+
+  .Result__content{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+  }
+
+  .content__img{
+width: 430px;
+height: 430px;
+
+  }
+
+  .suprise__img{
+width: 800px;
+height: 500px;
+background: url('../img/Konvert1.png') no-repeat center/ cover;
+  }
